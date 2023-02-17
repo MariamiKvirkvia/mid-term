@@ -35,6 +35,7 @@ ul{
     flex-wrap: wrap;
     margin: 30px 30px;
     border-bottom: 1px solid #F2F2F2;
+    padding-bottom: 40px;
 }
 
 #search-text-input{
@@ -55,7 +56,6 @@ ul{
 
 .profile img{
     padding-right: 30px;
-    padding-bottom: 40px;
 }
 
 .profile p{
