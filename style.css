@@ -74,7 +74,7 @@ ul{
 
 .sidebar{
     grid-area: sidebar;
-    padding: 30px;
+    padding: 30px 30px 0px 30px;
     background-color: #222222;
 }
 
@@ -82,6 +82,15 @@ ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    top: 30px;
+    z-index: 100;
+}
+
+.navigation{
+    position: sticky;
+    top: 62px;
+    z-index: 100;
 }
 
 .navigation ul{
@@ -109,6 +118,12 @@ ul{
     background-color: #FF2288;
     border-radius: 12px;
     border-top: 30px;
+}
+
+.following{
+    position: sticky;
+    top: 472px;
+    z-index: 100;
 }
 
 .following h3{
