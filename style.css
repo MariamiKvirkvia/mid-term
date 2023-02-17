@@ -44,6 +44,10 @@ ul{
     height: 56px;
     width: 446px;
     background-color: #F8F8F8;
+    background-image: url(images/svg/Component\ 9\ –\ 2.svg);
+    background-position-x: 400px;
+    background-position-y: 15px;
+    background-repeat: no-repeat;
     padding: 15px;
 }
 
