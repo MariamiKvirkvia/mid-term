@@ -113,11 +113,10 @@ ul{
 }
 
 .navigation li:hover{
-    width: 259px;
+    width: 250px;
     height: 60px;
     background-color: #FF2288;
     border-radius: 12px;
-    border-top: 30px;
 }
 
 .following{
@@ -183,7 +182,7 @@ ul{
 
 .sub li:hover{
     width: auto;
-    height: 56px;
+    height: 40px;
     background-color: #F2F2F2;
     border-radius: 12px;
 }
