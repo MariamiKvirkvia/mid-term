@@ -91,7 +91,8 @@ ul{
 .navigation li{
     display: flex;
     align-items: center;
-    padding-bottom: 50px;
+    padding-bottom: 19px;
+    padding-top: 19px;
 }
 
 .navigation img{
@@ -102,6 +103,13 @@ ul{
     padding-left: 15px;
 }
 
+.navigation li:hover{
+    width: 259px;
+    height: 60px;
+    background-color: #FF2288;
+    border-radius: 12px;
+    border-top: 30px;
+}
 
 .following h3{
     padding-top: 80px;
@@ -120,7 +128,7 @@ ul{
 .following li{
     display: flex;
     align-items: center;
-    padding-bottom: 15px;
+    padding-bottom: 19px;
 }
 
 .following img{
