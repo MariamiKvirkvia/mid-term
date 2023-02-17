@@ -240,8 +240,23 @@ ul{
     margin-bottom: 129px;
 }
 
-.top-designers h2{
+.designer-title{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+} 
+
+.designer-title h2{
     margin-bottom: 54px;
+}
+
+.designer-title a{
+    color: #222222;
+}
+
+.designer-title a:hover{
+    text-decoration: underline;
 }
 
 .designers{
@@ -257,6 +272,7 @@ ul{
 
 .designers h6{
     padding-bottom: 17px;
+    opacity: 0.6;
 }
 
 .designers button{
