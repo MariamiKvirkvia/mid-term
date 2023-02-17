@@ -159,11 +159,18 @@ ul{
 }
 
 .sub li{
-    padding-right: 15px;
+    padding: 15px;
 }
 
 .sub a{
     color: #222222;
+}
+
+.sub li:hover{
+    width: auto;
+    height: 56px;
+    background-color: #F2F2F2;
+    border-radius: 12px;
 }
 
 .filter-button{
