@@ -33,6 +33,7 @@ ul{
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 30px 30px;
+    border-bottom: 1px solid #F2F2F2;
 }
 
 #search-text-input{
@@ -53,6 +54,7 @@ ul{
 
 .profile img{
     padding-right: 30px;
+    padding-bottom: 40px;
 }
 
 .profile p{
@@ -100,10 +102,18 @@ ul{
 }
 
 
-.following p{
+.following h3{
     padding-top: 80px;
     padding-bottom: 30px;
     color: #FFFFFF;
+}
+
+.following p{
+    padding-top: 19px;
+}
+
+.following p>a{
+    padding-left: 0px;
 }
 
 .following li{
@@ -150,8 +160,23 @@ ul{
 .filter-button{
     width: 132px;
     height: 56px;
+    background-color: #FFFFFF;
     border: 1px solid #D8D8D8;
     border-radius: 12px;
+}
+
+.filter-img{
+    width: 24px;
+    height: 24px;
+}
+
+.filter-button > img,
+.filter-button > span{
+    vertical-align: middle;
+}
+
+.filter-button span{
+    padding-left: 15px;
 }
 
 .images{
