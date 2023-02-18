@@ -19,7 +19,7 @@ ul{
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: 1fr 6fr;
+    grid-template-rows: 1fr 4fr;
     grid-template-areas: 
         "sidebar header"
         "sidebar sub-menu"
@@ -223,6 +223,44 @@ ul{
     width: 289px;
     height: 210px;
     border-radius: 12px;
+}
+
+.project{
+    position: relative;
+}
+
+.icon{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    display: none;
+}
+
+.icon-2{
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    display: none;
+}
+
+.icon img{
+    width: 24px;
+    height: 24px;
+    background-color: #FFFFFF;
+}
+
+.icon-2 img{
+    width: 24px;
+    height: 24px;
+    background-color: #FFFFFF;
+}
+
+.project:hover .icon{
+    display: block;
+}
+
+.project:hover .icon-2{
+    display: block;
 }
 
 .more-button{
