@@ -98,14 +98,13 @@ ul{
 }
 
 .navigation ul{
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .navigation li{
     display: flex;
     align-items: center;
     padding-bottom: 19px;
-    padding-top: 19px;
 }
 
 .navigation img{
@@ -125,13 +124,13 @@ ul{
 
 .following{
     position: sticky;
-    top: 472px;
+    top: 382px;
     z-index: 100;
 }
 
 .following h3{
-    padding-top: 80px;
-    padding-bottom: 30px;
+    margin-top: 50px;
+    padding-bottom: 20px;
     color: #FFFFFF;
 }
 
@@ -146,7 +145,7 @@ ul{
 .following li{
     display: flex;
     align-items: center;
-    padding-bottom: 19px;
+    padding-bottom: 10px;
 }
 
 .following img{
