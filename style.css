@@ -15,11 +15,10 @@ ul{
 
 .outline{
     max-width: 1920px;
-    width: 90%;
+    width: 100%;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: 1fr 3fr;
     grid-template-areas: 
         "sidebar header"
         "sidebar sub-menu"
@@ -32,7 +31,8 @@ header{
     grid-area: header; 
     max-width: 1600px;
     width: 90%;
-    height: 150px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header{
@@ -66,12 +66,12 @@ header{
 }
 
 .profile img{
-    margin-right: 30px;
+    margin-right: 35px;
 }
 
 .profile p{
     color: #FF2288;
-    margin-right: 30px;
+    margin-right: 35px;
 }
 
 .button{
@@ -169,6 +169,7 @@ header{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 40px;
 }
 
 .sub{
