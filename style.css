@@ -373,3 +373,69 @@ footer{
     margin-top: 153px;
     margin-bottom: 40px;
 }
+
+@media (max-width: 860px)  {
+    .outline{
+        max-width: 1920px;
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        grid-template-areas: 
+            "sidebar header"
+            "sidebar sub-menu"
+            "sidebar load"
+            "sidebar top-designers"
+            "sidebar footer";
+    }
+
+    .top-designers{
+        display: none;
+    }
+
+    footer .top{
+        display: none;
+    }
+
+    #search-text-input{
+        margin-bottom: 15px;
+    }
+
+    .button{
+        display: none;
+    }
+
+    .filter{
+        display: none;
+    }
+
+    .header{
+        justify-content: center;
+    }
+    
+
+    .profile a:last-of-type{
+        width: 56px;
+    }
+
+    .sub-menu{
+        justify-content: center;
+    }
+
+    .sub ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .load{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
