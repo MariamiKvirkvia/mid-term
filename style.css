@@ -385,7 +385,6 @@ footer{
             "sidebar header"
             "sidebar sub-menu"
             "sidebar load"
-            "sidebar top-designers"
             "sidebar footer";
     }
 
@@ -413,7 +412,6 @@ footer{
         justify-content: center;
     }
     
-
     .profile a:last-of-type{
         width: 56px;
     }
@@ -437,5 +435,28 @@ footer{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+}
+
+@media (max-width: 420px) {
+    .outline{
+        width: 90%;
+        height: 100vh;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "header"
+            "sub-menu"
+            "load"
+            "footer";
+    }
+
+    #search-text-input{
+        display: none;
+    }
+
+    .sidebar{
+        display: none;
     }
 }
