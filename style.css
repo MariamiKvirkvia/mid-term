@@ -247,11 +247,6 @@ header{
     position: relative;
 }
 
-.project p{
-    font-family: avenir_roman;
-    font-size: 18px;
-}
-
 .icon{
     position: absolute;
     top: 30px;
