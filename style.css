@@ -72,6 +72,8 @@ header{
 .profile p{
     color: #FF2288;
     margin-right: 35px;
+    font-family: avenir_book;
+    font-size: 14px;
 }
 
 .button{
@@ -81,6 +83,8 @@ header{
     width: 129px;
     height: 56px;
     color: #FFFFFF;
+    font-family: avenir_book;
+    font-size: 14px;
 }
 
 .sidebar{
@@ -120,6 +124,7 @@ header{
 
 .navigation a{
     padding-left: 15px;
+    font-family: avenir_roman;
 }
 
 .navigation li:hover{
@@ -139,10 +144,12 @@ header{
     margin-top: 50px;
     padding-bottom: 20px;
     color: #FFFFFF;
+    font-family: avenir_roman;
 }
 
 .following p{
     padding-top: 19px;
+    font-family: avenir_roman;
 }
 
 .following p>a{
@@ -161,6 +168,7 @@ header{
 
 .following a{
     padding-left: 20px;
+    font-family: avenir_roman;
 }
 
 .sub-menu{
@@ -189,6 +197,7 @@ header{
 
 .sub a{
     color: #222222;
+    font-family: avenir_book;
 }
 
 .sub li:hover{
@@ -218,6 +227,7 @@ header{
 
 .filter-button span{
     padding-left: 15px;
+    font-family: avenir_book;
 }
 
 .images{
@@ -235,6 +245,11 @@ header{
 
 .project{
     position: relative;
+}
+
+.project p{
+    font-family: avenir_roman;
+    font-size: 18px;
 }
 
 .icon{
@@ -282,6 +297,7 @@ header{
     border: 1px solid #F2F2F2;
     border-radius: 12px;
     margin-top: 70px;
+    font-family: avenir_book;
 }
 
 .top-designers{
@@ -303,10 +319,13 @@ header{
 
 .designer-title h2{
     margin-bottom: 54px;
+    font-family: avenir_book;
 }
 
 .designer-title a{
     color: #222222;
+    font-family: avenir_book;
+    font-size: 14px;
 }
 
 .designer-title a:hover{
@@ -322,6 +341,7 @@ header{
 
 .designers h5, h6{
     padding-top: 10px;
+    font-family: avenir_book;
 }
 
 .designers h6{
@@ -351,6 +371,7 @@ footer{
 
 .top h4{
     margin-bottom: 36px;
+    font-family: avenir_book;
 }
 
 .top li{
@@ -360,6 +381,7 @@ footer{
 
 .top a{
     color: #222222;
+    font-family: avenir_book;
 }
 
 .social img{
