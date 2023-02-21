@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'avenir_black';
+    src: url('fonts/avenirltstd-black-webfont.woff') format('woff');
+}
+
+
+
+
+@font-face {
+    font-family: 'avenir_book';
+    src: url('fonts/avenirltstd-book-webfont.woff') format('woff');
+}
+
+
+
+
+@font-face {
+    font-family: 'avenir_roman';
+    src: url('fonts/avenirltstd-roman-webfont.woff') format('woff');
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -70,7 +91,7 @@ header{
 .profile p{
     color: #FF2288;
     margin-right: 35px;
-    font-family: avenir_book;
+    font-family: 'avenir_book';
     font-size: 14px;
 }
 
@@ -81,7 +102,7 @@ header{
     width: 129px;
     height: 56px;
     color: #FFFFFF;
-    font-family: avenir_book;
+    font-family: 'avenir_book';
     font-size: 14px;
 }
 
@@ -128,7 +149,7 @@ header{
 
 .navigation a{
     padding-left: 15px;
-    font-family: avenir_roman;
+    font-family: 'avenir_roman';
 }
 
 .navigation li:hover{
@@ -148,12 +169,12 @@ header{
     margin-top: 50px;
     padding-bottom: 20px;
     color: #FFFFFF;
-    font-family: avenir_roman;
+    font-family: 'avenir_roman';
 }
 
 .following p{
     padding-top: 19px;
-    font-family: avenir_roman;
+    font-family: 'avenir_roman';
 }
 
 .following p>a{
@@ -172,7 +193,7 @@ header{
 
 .following a{
     padding-left: 20px;
-    font-family: avenir_roman;
+    font-family: 'avenir_roman';
 }
 
 table{
@@ -220,7 +241,7 @@ footer{
 
 .top h4{
     margin-bottom: 36px;
-    font-family: avenir_book;
+    font-family: 'avenir_book';
 }
 
 .top li{
@@ -229,7 +250,7 @@ footer{
 
 .top a{
     color: #222222;
-    font-family: avenir_book;
+    font-family: 'avenir_book';
 }
 
 .social img{
@@ -242,6 +263,10 @@ footer{
     justify-content: space-between;
     margin-top: 153px;
     margin-bottom: 40px;
+}
+
+.bottom p{
+    font-family: 'avenir_book';
 }
 
 .additional{

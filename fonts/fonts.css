@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'avenir_black';
-    src: url('/fonts/avenirltstd-black-webfont.woff') format('woff');
+    src: url('fonts/avenirltstd-black-webfont.woff') format('woff');
 }
 
 
@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: 'avenir_book';
-    src: url('/fonts/avenirltstd-book-webfont.woff') format('woff');
+    src: url('fonts/avenirltstd-book-webfont.woff') format('woff');
 }
 
 
@@ -20,5 +20,5 @@
 
 @font-face {
     font-family: 'avenir_roman';
-    src: url('/fonts/avenirltstd-roman-webfont.woff') format('woff');
+    src: url('fonts/avenirltstd-roman-webfont.woff') format('woff');
 }
