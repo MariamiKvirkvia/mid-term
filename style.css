@@ -417,6 +417,10 @@ footer{
     margin-bottom: 40px;
 }
 
+.bottom p{
+    font-family: 'avenir_book';
+}
+
 .additional{
     display: none;
 }
